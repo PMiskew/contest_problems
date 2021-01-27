@@ -1,10 +1,9 @@
-
 def problem():
+
 	num = input()
 	num = int(num)
 
-
-	#Hard code:
+	#Hard Code by checking all possibilies
 	'''
 	We can map out all possibilities
 	10 	- (5,5)
@@ -17,16 +16,13 @@ def problem():
 	3	- (3,0),(2,1)
 	2	- (2,0),(1,1)
 	1	- (1,0)
+	#'''
 
-
-	'''
-
-	if (n == 10 or n == 9 or n == 1):
+	if (num == 10 or num == 9 or num == 1):
 		print(1)
-	elif (n == 8 or n == 7 or n == 3 or n == 2):
+	elif (num == 8 or num == 7 or num == 3 or num == 2):
 		print(2)
-	elif (n == 6 or n == 5 or n == 4):
+	else:
 		print(3)
-
 
 problem()
