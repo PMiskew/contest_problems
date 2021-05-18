@@ -25,13 +25,13 @@ def soundsFishy():
 
 	if (a == b and b == c and c == d):
 		print("Fish At Constant Depth")
-		
+		return
 	elif (a < b and b < c and c < d):
 		print("Fish Rising")
-		
+		return
 	elif (a > b and b > c and c > d):
 		print("Fish Diving")
-	
+		return
 	print("No Fish")
 
 soundsFishy()

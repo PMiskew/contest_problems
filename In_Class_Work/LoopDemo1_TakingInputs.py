@@ -11,8 +11,14 @@ while (value < 0 or value > 10):
 	
 	value = input("What is the value")
 	value = int(value)
-	
+
 	if (value < 0 or value > 10):
 		print("INVALID - TRY AGAIN")
 
 print("THANK YOU")
+
+'''
+Challenge: Modify the loop is that it takes inputs between -50 <= value <= 50
+
+
+'''
